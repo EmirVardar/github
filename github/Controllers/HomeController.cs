@@ -26,6 +26,10 @@ namespace github.Controllers
         {
             return View();
         }
+        public IActionResult Emir2()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
